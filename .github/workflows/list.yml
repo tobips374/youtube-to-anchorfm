@@ -1,0 +1,9 @@
+name: 'Get Youtube IDS'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload_episode:
+    runs-on: ubuntu-latest
+    steps:
